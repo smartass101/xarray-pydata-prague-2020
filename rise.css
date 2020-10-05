@@ -1,0 +1,14 @@
+/* prevent display of fallback text repr in Reval.js */
+pre.xr-text-repr-fallback {
+    display: none
+}
+
+
+/* prevent override by more specific rules in .reveal ul [ul] */
+.reveal ul.xr-sections {
+    display: grid
+}
+
+.reveal ul ul.xr-var-list {
+    display: contents
+}
